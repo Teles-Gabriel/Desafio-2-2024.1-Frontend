@@ -1,0 +1,183 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #080808;
+    color: #fff;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #080808;
+    border: 1px solid white;
+}
+
+.logo img {
+    width: 69px;
+    height: 69px;
+    border: 1px solid white;
+    margin-top: 5px;
+}
+
+nav ol {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 5px;
+}
+
+nav li span {
+    color: #ffffff;
+    font-size: 12px;
+    justify-content: start;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.contact-link img {
+    width: 40px;
+    height: 40px;
+}
+
+.main-container{
+    display: flex;
+}
+
+.contents-card {
+    width: 90%;
+    max-width: 1490px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.card-text {
+    width: 500px;
+    flex: 1;
+    padding: 50px;
+}
+
+.card-text h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.card-text p {
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+
+.card-image {
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+}
+
+
+.social-links {
+    height: 612px;
+    width: 69px;
+    border: 1px solid white;
+    position: left;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.social-links a img {
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card-text, .card-image {
+        flex: 1 1 100%;
+    }
+}
+
+/* Services  */
+
+.container{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1400px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    color: black;
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+}
